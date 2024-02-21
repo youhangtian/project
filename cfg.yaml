@@ -1,0 +1,15 @@
+output_dir: output
+model: /home/tian/models/model_name
+dataset: /home/tian/data/dataset_name
+
+model:
+  depth: 10
+  lock: False
+data:
+  shape: [10, 10]
+  aug: True
+train:
+  epochs: 10
+  batch_size: 4
+  weight_decay: 1.e-3
+  log_freq: 100
