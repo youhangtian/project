@@ -1,6 +1,6 @@
+import time
 from tqdm import tqdm 
-from utils import get_config_from_yaml, get_logger
-import time 
+from src.utils import get_config_from_yaml, get_logger
 
 cfg = get_config_from_yaml('cfg.yaml')
 logger = get_logger(cfg.output_dir)
